@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap');
+
+body{
+    background-color: #192032;
+    font-family: 'Archivo', sans-serif;
+    color: #2D2B2A;
+    font-size: 1.25rem;
+    font-weight: bold
+}
+
+
+
+h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.5em;
+    color: #09586d;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+/*Menú de navegación*/
+
+.navbar{
+    background-color: #0e8fb3;
+}
+
+.logo{
+    width: 10rem;
+}
+
+.logo:hover{
+    opacity: .8;
+}
+.nav-item{
+    margin-right: 1rem;
+}
+
+.btn{
+    color: #192032 ;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.4em;
+    border-radius: 13px;
+    border-color: #192032;
+}
+
+.nav-item a:hover{
+    opacity: .9;
+}
+.container-fluid{
+    margin-left: 4rem !important;
+}
+
+.navbar-brand{
+    margin-right: 57rem !important;
+    
+}
+
+/*Menú de navegación*/
+
+/* Main */
+
+.bg-general{
+background-color: white;
+margin: 4rem 1rem 1rem 14rem;
+border-radius: 50px;
+width: 56rem;
+height: 51.375rem;
+}
+
+.formulario{
+    margin: 0rem 8rem;
+    text-align: center;
+    display: grid;
+    gap: 25px;
+}
+
+.form_group{
+    position: relative;
+}
+
+.form_input{
+    width: 100%;
+    height: 49px;
+    color: #706c6c;
+    border-radius: 9px;
+    border: 1px solid;
+}
+
+label{
+    margin-bottom: 1rem;
+}
+
+.form_text{
+    width: 100%;
+    height: 137px;
+    border-radius: 9px;
+    color: #706c6c;
+}
+
+.btn-secondary{
+    background-color: #09586d;
+    border-color: #09586d;
+    font-family: 'Fredoka One', cursive;
+    width: 181px;
+    height: 47px;
+    margin-left: 427px;
+    margin-bottom: 72px;
+    color: white !important;
+}
+
+.ifinal{
+    text-align: center;
+    margin-top: 97px;
+}
+
+form button {
+    font-size: 0.9em !important;
+}
+

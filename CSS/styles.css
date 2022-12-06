@@ -1,0 +1,36 @@
+.cuerposaludos{
+    background-color: rgb(228, 230, 235);
+}
+
+.numerodepagina{
+    font-family: 'Fredoka One', cursive;
+}
+
+.botondeant{
+    margin-right: 10rem;
+    background-color: white;
+    color: black;
+    border-color: white;
+    font-family: 'Fredoka One', cursive;
+}
+
+.botondesig{
+    background-color: white;
+    color: black;
+    border-color: white;
+    font-family: 'Fredoka One', cursive;
+}
+
+.botondeant:hover{
+    background-color: gray;
+}
+
+.botondesig:hover{
+    background-color: gray;
+}
+
+.comicejemplo{
+    border-radius: 5%;
+    width: 80rem;
+}
+

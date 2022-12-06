@@ -1,0 +1,193 @@
+/*tipografías*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap');
+
+h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 4em;
+    color: #192032;
+    padding-bottom: 0.9rem;
+}
+
+p{
+    font-family: 'Archivo', sans-serif;
+
+    font-size: 1.6em;
+}
+
+/*tipografías*/
+
+/* Var de navegación */
+
+.navbar{
+    background-color: #EFEFEF;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo{
+    width: 10rem;
+}
+
+.logo:hover{
+    opacity: .8;
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
+
+.btn{
+    color: #192032 !important;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.1em;
+    border-radius: 13px;
+    border-color: #192032;
+}
+
+.nav-item a:hover{
+    opacity: .9;
+    background-color: #0e8fb3;
+}
+.container-fluid{
+    margin-left: 4rem !important;
+}
+
+.navbar-brand{
+    margin-right: 29rem !important;
+    
+}
+
+/* Var de navegación */
+
+/* Carousel */
+
+.principal{
+    margin-top: 10.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5.5rem;
+    background-color: #E2E2E2;
+    border-top: 15px solid #A3A6AB;
+    border-bottom: 15px solid #676C77;
+}
+.cont-caro{
+    width: 66%;
+    margin-top: 2rem;
+}
+
+/* Carousel */
+
+/* Introducción*/
+
+.intro{
+    margin: 0rem 10rem 3rem 10rem;
+    gap: 3rem;
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+}
+
+.text-intro{
+    margin-top: 3rem;
+}
+
+.intro img{
+    width: 419px;
+}
+
+/* Introducción*/
+
+/* Cómic */
+
+.comic{
+    text-align: center;
+    padding-top: 5.5rem;
+    padding-bottom: 5rem;
+    border-top: 15px solid #A3A6AB;
+    border-bottom: 15px solid #676C77;
+}
+
+.comic img{
+    width: 45rem;
+    margin-top: 1.5rem;
+}
+.prueba{
+    background-color: #E2E2E2;
+}
+
+.bot-comic{
+    margin: 2.5rem auto;
+}
+
+.bot-comic button{
+    width: 10rem;
+    height: 3.1rem;
+}
+
+.bot-comic button:hover{
+    opacity: .8;
+    background-color: #0e8fb3;
+}
+/* Cómic */
+
+/* Teaser */
+
+.trailer{
+    text-align: center;
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+    border-bottom: 15px solid #676C77;
+}
+
+.trailer iframe{
+    margin-top: 1rem;
+}
+
+/* Teaser */
+
+/* Footer */
+
+.content-foo{
+    margin-top: 6rem;
+}
+footer{
+    background-color: #0e8fb3;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icon{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 50%;
+    
+
+}
+.icon:hover{
+    opacity: 60%;
+}
+.icon i{
+    position: absolute;
+    top: -1.3rem;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.eleutheria{
+    text-align: center;
+    color: black;
+}
+
+/* Footer */

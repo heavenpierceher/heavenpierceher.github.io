@@ -1,0 +1,462 @@
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.volver{
+    position: relative;
+    right: -3rem;
+    top: 1rem;
+}
+.circulo{
+    position: absolute;
+    top: 18rem;
+    left: 32rem;
+    z-index: 1;
+    animation: circulo 1s linear infinite ;
+    cursor: pointer;
+    
+}
+
+
+.circulo2{
+    position: absolute;
+    top: 18rem;
+    left: 55rem;
+    z-index: 1;
+    animation: circulo 1s linear infinite ;
+    cursor: pointer;
+    
+}
+.btn-lg{
+    background-color:#0e8fb3;
+}
+
+.comicejemplo {
+    width: 70%;
+    height: 50%;
+    position: relative;
+    
+}
+
+.burbujas {
+    position: absolute;
+    right: 21rem;
+    top: 2rem;
+    height: 30rem;
+    width: 22rem;
+}
+
+.burbujas .burb1 {
+    position: relative;
+    width: 50%;
+    top: 4.5rem;
+    right: 5rem;
+}
+
+.burbujas .burb2 {
+    position: absolute;
+    top: 5rem;
+    width: 50%;
+    right: 4rem;
+    
+}
+
+.ramdoms {
+    position: absolute;
+    display: flex;
+    top: 5rem;
+    right: 18rem;
+}
+
+.ramdoms img {
+    width: 8rem;
+}
+.ceja{
+    width: 2rem;
+    height: 1.5rem;
+    position: relative;
+    top: -20rem;
+    right: -60.3rem;
+    cursor: pointer;
+   
+}
+.movimiento-ceja{
+    animation: ceja 1s forwards linear;
+}
+
+.cejas {
+    position: relative;
+    top: -27rem;
+    right: -35rem;
+    cursor: pointer;
+}
+
+.albertagua {
+    position: absolute;
+    top: 19rem;
+    right: 21rem;
+}
+
+.voces {
+    position: absolute;
+    top: 4rem;
+    right: 21rem;
+}
+
+.albertmuerto {
+    position: absolute;
+    top: 10rem;
+    right: 50rem;
+}
+
+.albert {
+    z-index: 1;
+    position: absolute;
+    width: 6rem;
+    margin: 10rem 0rem 0rem 19rem;
+    cursor: pointer;
+}
+
+.lorelei {
+    z-index: 1;
+    position: absolute;
+    width: 7rem;
+    margin: 8rem 0rem 0rem 50rem;
+}
+
+
+/* Viñeta 15*/
+
+.oculto-lorelei {
+    display: none;
+}
+
+.opacidad-lorelei {
+    animation: lorelei 2s forwards linear;
+}
+
+
+@keyframes lorelei {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+/* Viñeta 15*/
+
+/* Viñeta 16*/
+
+.movimiento-cejas {
+    animation: cejas 2s forwards linear;
+}
+
+@keyframes cejas {
+    0% {
+        top: -27rem;
+    }
+
+    50% {
+        top: -28rem;
+    }
+
+    100% {
+        top: -29rem;
+    }
+}
+
+
+    
+
+@keyframes ceja {
+    0% {
+        top: -20rem;
+    }
+
+    
+    100% {
+        top: -19.5rem;
+    }
+}
+
+
+/* Viñeta 16*/
+
+/* Viñeta 9*/
+
+.opacidad-randoms {
+    animation: randoms 2s forwards linear;
+}
+
+@keyframes randoms {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.random1 {
+    cursor: pointer;
+}
+
+.letras{
+    animation: letrass 2s forwards linear;
+}
+@keyframes letrass {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.albert18{
+ position: absolute;
+ right: 52.6rem;
+ top: 2.3rem;
+ cursor: pointer;
+}
+
+.albertj{
+position: absolute;
+right: 23rem;
+top: 14rem;
+width: 6rem;
+cursor: pointer;
+}
+.burbujass{
+    animation: burb12 2s forwards linear;
+}
+@keyframes burb12 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.jak{
+    position: absolute;
+    right: 45rem;
+    top: 12rem;
+    width: 6.5rem;
+    cursor: pointer;
+}
+
+.burbujas{
+    animation: burb11 2s forwards linear;
+}
+@keyframes burb11 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.alber{
+    position: absolute;
+    right: 52.6rem;
+    top: 1.3rem;
+    cursor: pointer;
+   }
+
+   .jac{
+    position: absolute;
+    right: 45rem;
+    top: 12rem;
+    width: 6.5rem;
+    cursor: pointer;
+}
+.alerta{
+    position: relative;
+    left: 3rem;
+    top: 1rem;
+}
+
+/* Viñeta 9*/
+
+
+
+@keyframes circulo{
+    0%{
+        opacity: 100%;
+        }
+    100%{
+        opacity: 0%;
+        }
+} 
+.oculto{
+    opacity: 0%;
+}       
+
+.circulo9{
+    position: absolute;
+    top: 10rem;
+    left: 60rem;
+    z-index: 1;
+    animation: circulo 1s linear infinite ;
+    cursor: pointer;
+    
+}
+
+.circulo11{
+    position: absolute;
+    top: 18rem;
+    left: 46rem;
+    z-index: 1;
+    animation: circulo 1s linear infinite ;
+    cursor: pointer;
+}
+.circulo15{
+    position: absolute;
+    top: 17rem;
+    left: 31rem;
+    z-index: 2;
+    animation: circulo 1s linear infinite ;
+    cursor: pointer;
+    
+}
+  
+.circulo16{
+    position: absolute;
+    top: 9rem;
+    left: 37rem;
+    z-index: 2;
+    animation: circulo 1s linear infinite ;
+    cursor: pointer;
+    
+}
+.circulo18{
+    position: absolute;
+    top: 15rem;
+    left: 15rem;
+    z-index: 2;
+    animation: circulo 1s linear infinite ;
+    cursor: pointer;
+    
+}
+.circulo4{
+    position: absolute;
+    top: 13rem;
+    left: 57rem;
+    z-index: 2;
+    animation: circulo 1s linear infinite ;
+    cursor: pointer;
+}
+
+.caminadoalbert{
+    position: absolute;
+    z-index: 1;
+    top: 16rem;
+    right: 21rem;
+    width: 14%;
+    animation: albertcaminado 4s linear infinite;
+}
+@keyframes albertcaminado{
+    0%{
+        right: 57rem;
+        }
+    100%{
+        right: 15rem;
+        }
+} 
+@keyframes moveburb{
+    0%{
+        right: 37rem;
+        }
+    100%{
+        right: 0rem;
+        }
+} 
+.burbujas .burbani {
+    position: absolute;
+    top: 5rem;
+    width: 50%;
+    right: 4rem;
+    animation: moveburb 4s linear infinite;
+}
+.circulo6{
+    position: absolute;
+    top: 18rem;
+    left: 15rem;
+    z-index: 1;
+    animation: circulo 1s linear infinite ;
+    cursor: pointer;
+    
+}
+.albertder{
+    position: absolute;
+    z-index: 1;
+    top: 17rem;
+    right: 42rem;
+    width: 7%;
+}
+.caminadoalbert2{
+    position: absolute;
+    z-index: 1;
+    top: 16rem;
+    right: 43rem;
+    width: 14%;
+    animation: albertcaminado2 4s forwards;
+}
+@keyframes albertcaminado2{
+    0%{
+        
+        right: 56rem;
+        }
+    
+    
+        100%{
+            right: 40rem;
+    
+        }
+    } 
+
+
+    .anim-fondo{
+        animation: fondo 5s forwards linear;
+    }
+    @keyframes fondo{
+        33%{
+            background-position-y: -350px;
+        }
+      
+        100%{
+            background-position-y: -500px;
+            background-position-x: -1010px;
+        }
+    }
